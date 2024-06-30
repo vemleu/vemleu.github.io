@@ -2,7 +2,7 @@
     "title":"Fuck Yami",
     "subTitle":"情绪零碎。",
     "avatarUrl":"https://smms.app/image/BNQhVMqLUD5EYK9",
-    singlePage":"about",
+    "singlePage":["about"],
     "startSite":"06/26/2024",
     "GMEEK_VERSION":"last"
 }

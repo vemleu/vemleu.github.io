@@ -4,8 +4,8 @@
     <meta content="text/html; charset=utf-8" http-equiv="content-type" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link href="//cdn.staticfile.net/Primer/21.0.7/primer.css" rel="stylesheet" />
-    <link rel="icon" href="https://smms.app/image/BNQhVMqLUD5EYK9"><script>
+    <link href='https://mirrors.sustech.edu.cn/cdnjs/ajax/libs/Primer/21.0.7/primer.css' rel='stylesheet' />
+    <link rel="icon" href="https://s21.ax1x.com/2024/07/01/pkgpc4O.jpg"><script>
         let theme = localStorage.getItem("meek_theme") || "light";
         document.documentElement.setAttribute("data-color-mode", theme);
     </script>
@@ -14,7 +14,7 @@
 <meta property="og:description" content="很早之前就发现了[Gmeek](https://meekdai.com/Gmeek.html)这个主题，之前部署过一次，大概是因为对Github不太熟悉以及没认真看部署文档（主要原因）导致的，最近闲得无聊重新折腾了一下下，大致明白了工作原理。">
 <meta property="og:type" content="article">
 <meta property="og:url" content="https://vemleu.github.io/post/First-post.html">
-<meta property="og:image" content="https://smms.app/image/BNQhVMqLUD5EYK9">
+<meta property="og:image" content="https://s21.ax1x.com/2024/07/01/pkgpc4O.jpg">
 <title>First-post</title>
 
 
@@ -76,8 +76,10 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 <li>然后呢主题确实是简陋了一点儿，虽说可以自己装修一下，但我实在是懒得动手了（摊手）自带主题对我而言能看的下去就行。</li>
 </ul></div>
 <div style="font-size:small;margin-top:8px;float:right;"></div>
+
 <button class="btn btn-block" type="button" onclick="openComments()" id="cmButton">评论</button>
 <div class="comments" id="comments"></div>
+
 </div>
     <div id="footer">Copyright © <span id="year"></span><a href="https://vemleu.github.io"> Fuck Yami </a>
 <p>
@@ -132,6 +134,8 @@ console.log("\n %c Gmeek last https://github.com/Meekdai/Gmeek \n\n","padding:5p
 <script>
 document.getElementById("pathHome").setAttribute("d",IconList["home"]);
 document.getElementById("pathIssue").setAttribute("d",IconList["github"]);
+
+
 
 function openComments(){
     cm=document.getElementById("comments");

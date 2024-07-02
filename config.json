@@ -3,6 +3,6 @@
     "needComment":0,
     "subTitle":"情绪零碎。",
     "avatarUrl":"https://s21.ax1x.com/2024/07/01/pkgpc4O.jpg",
-    "GMEEK_VERSION":"last",
-    "singlePage":"about"
+    "singlePage":["about"],
+    "GMEEK_VERSION":"last"
 }
